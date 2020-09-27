@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+nav.navbar {
+  background-color: #061a40;
+  height: 80px; 
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav.navbar li{
+  list-style-type: none;
+}
+
+nav div.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  width: 980px;
+}
+
+nav div.menu .title{
+  font-size: 50px;
+}
+
+nav div.menu .items{
+  display: flex;
+  flex-direction: row;
+}
+
+nav div.menu .items li{
+  padding: 0 18px;
+  font-size: 22px;
+}
