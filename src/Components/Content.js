@@ -9,7 +9,7 @@ function Content(){
         <div className="box-top">
           <h1 >404</h1>
 
-          <p>Page Not <br/> found...</p>
+          <p>Page not <br/> found...</p>
         </div>
 
         <div className="box-bottom">

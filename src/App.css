@@ -97,3 +97,7 @@ nav div.menu .items li{
   border-radius: 4px;
   font-size: 30px;
 }
+
+.content .box-bottom .btn:hover{
+  cursor: pointer;
+}
