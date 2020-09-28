@@ -46,3 +46,54 @@ nav div.menu .items li{
   padding: 0 18px;
   font-size: 22px;
 }
+
+.content{
+  height: 100vh;
+  background-image: url('./Image/pexels-valentin-antonucci-841286.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.content-layer{
+  margin: 0 8%;
+  height: 83vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content .box-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.content .box-top h1{
+  font-size: 250px;
+}
+
+.content .box-top p{
+  font-size: 100px;
+}
+
+.content .box-bottom{
+  
+  font-size: 25px;
+  margin-right: 26%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.content .box-bottom .btn{
+  color: white;
+  background-color: #061a40;
+  outline: none;
+  border: transparent;
+  padding: 10px 60px;
+  border-radius: 4px;
+  font-size: 30px;
+}
